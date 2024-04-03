@@ -1,4 +1,15 @@
 
+@media screen and (width: 320px) {
+    nav {
+        width: 80%;
+    }
+    section {
+        width: 90%;
+        padding: 30px 15px;
+        border-radius: 14px;
+    }
+}
+
 @media (min-width: 375px) and (max-width: 426px) {
     nav {
         width: 90%;
