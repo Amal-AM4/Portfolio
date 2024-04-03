@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    color: #fafafa;
+    font-size: 18px;
+    background-image: url('../img/205.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 18px;
+    border-radius: 8px;
+    background-color: #77777746;
+    color: #b4b4b4d8;
+    font-size: 18px;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.nav-link:hover,
+.nav-link:active {
+    color: #0095ff;
+}
+
+.nav-link i:hover {
+    color: #0095ff;
+}
+
+i {
+    color: #ffffff;
+    font-size: 28px;
+}
+
+.bi-suitcase-lg-fill {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+nav {
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+section {
+    width: 40%;
+    margin: 0 auto;
+    padding: 60px 40px;
+    /* background-color: #3b3b3b; */
+    background-color: #131313;
+    border-radius: 20px;
+    box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.664);
+}
+
+.phase-one {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.phase-one .profile {
+    width: 100%;
+}
+
+.phase-one .profile img {
+    width: 50%;
+    margin: auto;
+    border-radius: 14px;
+    display: block;
+}
+
+.phase-one .profile h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.phase-one .profile button {
+    padding: 10px 18px;
+    border-radius: 6px;
+    background-color: #77777746;
+    border: none;
+    color: #d1d1d1;
+    display: block;
+    margin: 0 auto;
+}
+
+.phase-one .profile .social-media {
+    text-align: center;
+    margin-top: 22px;
+}
+
+.phase-one .profile .social-media i {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #77777746;
+    font-size: 22px;
+    margin: 0px 6px;
+    cursor: pointer;
+}
+
+.social-media .bi-github { color: #fafbfc; }
+.social-media .bi-linkedin { color: #0077B5; }
+.social-media .bi-whatsapp { color: #25D366; }
+
+
+.phase-one .profile .social-media i:hover {
+    color: #ffffff;
+    background-color: #0095ff;
+}
+
+.phase-one .profile .contact {
+    background-color: #77777723;
+    margin-top: 40px;
+    border-radius: 20px;
+    padding: 30px 40px;
+}
+
+.phase-one .profile .contact .phone,
+.phase-one .profile .contact .email,
+.phase-one .profile .contact .location,
+.phase-one .profile .contact .birthday {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 24px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #ffffff1c;
+}
+
+.phase-one .profile .contact .phone,
+.phase-one .profile .contact .email,
+.phase-one .profile .contact .location {
+    margin-bottom: 24px;
+}
+
+.phase-one .profile .contact .phone i,
+.phase-one .profile .contact .email i,
+.phase-one .profile .contact .location i,
+.phase-one .profile .contact .birthday i {
+    background-color: #111111;
+    padding: 12px;
+    border-radius: 10px;
+}
+.phase-one .profile .contact .phone i {
+    color: #dc3545;
+}
+.phase-one .profile .contact .email i {
+    color: #20c997;
+}
+.phase-one .profile .contact .location i {
+    color: #d63384;
+}
+.phase-one .profile .contact .birthday i {
+    color: #6f42c1;
+}
+
+.phase-one .profile .contact .phone i:hover,
+.phase-one .profile .contact .email i:hover,
+.phase-one .profile .contact .location i:hover,
+.phase-one .profile .contact .birthday i:hover {
+    background-color: #0095ff;
+    color: #ffffff;
+}
+
+.phase-one .profile .contact .phone .left,
+.phase-one .profile .contact .email .left,
+.phase-one .profile .contact .location .left,
+.phase-one .profile .contact .birthday .left {
+    display: flex;
+    flex-direction: column;
+}
+
+.phase-one .profile .contact .phone .left big,
+.phase-one .profile .contact .email .left big,
+.phase-one .profile .contact .location .left big,
+.phase-one .profile .contact .birthday .left big {
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+.phase-one .profile .contact .phone .left small,
+.phase-one .profile .contact .email .left small,
+.phase-one .profile .contact .location .left small,
+.phase-one .profile .contact .birthday .left small {
+    color: #777777a8;
+}
+
+.phase-one .profile .download-cv {
+    width: 70%;
+    background-color: #0095ff;
+    color: #ffffff;
+    padding: 15px 30px;
+    margin-top: 30px;
+    border-radius: 12px;
+    cursor: pointer;
+    border: 1px solid #0095ff;
+}
+
+.phase-one .profile .download-cv:hover {
+    background-color: #77777723;
+}
+
+.phase-one .profile .download-cv i { font-size: 24px; }
+
+.phase-two {
+    margin-bottom: 40px;
+}
+
+.phase-two .heading {
+    display: flex;
+}
+
+.phase-two .heading span {
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 30px;
+    background-color: #0095ff;
+    content: ' ';
+    width: 200px;
+    height: 4px;
+}
+
+.phase-two p {
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.8rem;
+    color: #8f8f8f;
+}
+
+.phase-three {
+    margin-bottom: 40px;
+}
+
+.phase-three .heading {
+    display: flex;
+}
+
+.phase-three .heading span {
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 30px;
+    background-color: #0095ff;
+    content: ' ';
+    width: 200px;
+    height: 4px;
+}
+
+.phase-three p {
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.8rem;
+    color: #8f8f8f;
+}
+
+.phase-three .skill { margin-bottom: 48px;}
+
+.phase-three .skill h3 {
+    margin-bottom: 4px;
+}
+
+.phase-three .skill h3 i {
+    color: #0095ff;
+}
+
+.phase-three .skill .btn {
+    margin-top: 18px;
+    transition: all 0.5s ease;
+}
+
+.phase-three .skill .btn:hover {
+    background-color: #0095ff;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.phase-three .education { margin-bottom: 48px;}
+
+.phase-three .education h3 {
+    margin-bottom: 24px;
+}
+
+.phase-three .education h3 i {
+    color: #0095ff;
+}
+
+.phase-three .education .block {
+    border: 1px solid #ffffff48;
+    padding: 10px 18px;
+    border-radius: 14px;
+    margin-bottom: 18px;
+}
+
+.phase-three .education .block p { margin-top: 10px;}
+
+.phase-three .education .block p big {
+    color: #fff;
+}
+
+.phase-three .internship { margin-bottom: 48px;}
+
+.phase-three .internship h3 {
+    margin-bottom: 24px;
+}
+
+.phase-three .internship h3 i {
+    color: #0095ff;
+}
+
+.phase-three .internship .block {
+    border: 1px solid #ffffff48;
+    padding: 14px 18px;
+    border-radius: 14px;
+    margin-bottom: 18px;
+}
+
+.phase-three .internship .block p { margin-top: 10px;}
+
+.phase-three .internship .block p big {
+    color: #fff;
+}
+
+.phase-three .internship .block h4 {
+    margin-top: 14px;
+}
+
+.phase-three .internship .block h4 small {
+    font-style: normal;
+    font-weight: 100;
+}
+
+.phase-three .internship .block h4 small a {
+    font-style: normal;
+    font-weight: 100;
+    font-size: 15px;
+    color: #f3f3f3a1;
+}
+
+.footer {
+    margin-bottom: 24px;
+    padding: 24px 8px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #202020c9;
+    color: #b4b4b4d8;
+    font-size: 14px;
+    word-spacing: 4px;
+}
+
+.footer a {
+    color: #b4b4b4d8;
+    font-size: 14px;
+}

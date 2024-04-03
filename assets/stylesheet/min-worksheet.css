@@ -1,0 +1,39 @@
+
+@media (min-width: 375px) and (max-width: 426px) {
+    nav {
+        width: 90%;
+    }
+    section {
+        width: 95%;
+        padding: 40px 20px;
+    }
+    
+}
+
+@media (min-width: 426px) and (max-width: 769px) {
+    body {
+        overflow-x: hidden;
+    }
+    nav {
+        width: 80%;
+    }
+    section {
+        width: 80%;
+        padding: 40px 30px;
+    }
+    
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    body {
+        overflow-x: hidden;
+    }
+    nav {
+        width: 60%;
+    }
+    section {
+        width: 60%;
+        padding: 40px 30px;
+    }
+    
+}
