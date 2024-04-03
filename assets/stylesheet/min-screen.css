@@ -1,5 +1,5 @@
 
-@media screen and (width: 320px) {
+@media only screen and (width: 320px) {
     nav {
         width: 80%;
     }
@@ -13,7 +13,7 @@
         font-size: 18px;
     }
     .phase-one .profile big {
-        font-size: 16px !important;
+        font-size: 15px !important;
     }
     .phase-one .profile .download-cv {
         width: 90%;
