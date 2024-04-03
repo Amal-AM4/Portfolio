@@ -1,4 +1,26 @@
 
+@media screen and (width: 320px) {
+    nav {
+        width: 80%;
+    }
+    section {
+        width: 90%;
+        padding: 30px 15px;
+        border-radius: 14px;
+    }
+    .phase-one .profile .contact{
+        padding: 30px 10px;
+        font-size: 18px;
+    }
+    .phase-one .profile big {
+        font-size: 16px !important;
+    }
+    .phase-one .profile .download-cv {
+        width: 90%;
+        font-size: 14px;
+    }
+}
+
 @media (min-width: 375px) and (max-width: 426px) {
     nav {
         width: 90%;
