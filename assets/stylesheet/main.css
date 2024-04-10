@@ -114,7 +114,9 @@ section {
 
 .social-media .bi-github { color: #fafbfc; }
 .social-media .bi-linkedin { color: #0077B5; }
-.social-media .bi-whatsapp { color: #25D366; }
+.social-media .bi-instagram { 
+    color: #ff5a5f
+}
 
 
 .phase-one .profile .social-media i:hover {
