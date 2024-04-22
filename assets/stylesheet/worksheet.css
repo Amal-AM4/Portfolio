@@ -52,13 +52,13 @@ i {
 }
 
 nav {
-    width: 40%;
+    width: 60%;
     margin: 0 auto;
     padding-top: 40px;
 }
 
 section {
-    width: 40%;
+    width: 60%;
     margin: 0 auto;
     padding: 20px 40px;
     background-color: #131313;
@@ -84,6 +84,16 @@ section {
     content: ' ';
     width: 200px;
     height: 4px;
+}
+
+.main-screen {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-screen .screen {
+    width: 520px;
+    margin-right: 10px;
 }
 
 .part-one .screen {
@@ -135,9 +145,6 @@ section {
     color: rgb(226, 226, 226);
     transition: all 0.3s ease;
 }
-
-
-
 
 
 
